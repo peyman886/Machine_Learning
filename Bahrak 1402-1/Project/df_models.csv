@@ -1,0 +1,7 @@
+Model Name,Task,Data Type,mixup,Optimizer,LR Scheduler,Accuracy,Training Time (s),early stopping epoch
+CustomCNN,label,No data augmentation,False,SGD,wihoutLR,0.9038461538461539,528.8562037944794,31
+CustomCNN,realness,No data augmentation,False,SGD,wihoutLR,0.6794871794871795,462.86230206489563,37
+resnet,label,No data augmentation,False,SGD,wihoutLR,0.9631410256410257,903.0964922904968,34
+resnet,realness,No data augmentation,False,SGD,wihoutLR,0.5144230769230769,1083.4035515785217,27
+mobilenet,label,No data augmentation,False,SGD,wihoutLR,0.9567307692307693,359.7923176288605,27
+mobilenet,realness,No data augmentation,False,SGD,wihoutLR,0.5160256410256411,360.5318262577057,27

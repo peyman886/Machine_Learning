@@ -1,0 +1,37 @@
+Model Name,Task,Data Type,mixup,Optimizer,LR Scheduler,Accuracy,Training Time (s),early stopping epoch
+CustomCNN,label,No data augmentation,False,SGD,wihoutLR,0.9150641025641025,313.658983707428,29
+CustomCNN,label,Basic Natural Scene Augmentation,False,SGD,wihoutLR,0.907051282051282,1514.0013988018036,27
+CustomCNN,label,Advanced Realism Augmentation,False,SGD,wihoutLR,0.9198717948717948,2835.33398604393,36
+CustomCNN,label,Comprehensive Environmental Augmentation,False,SGD,wihoutLR,0.9134615384615384,2073.969218492508,27
+CustomCNN,label,mixup,True,SGD,wihoutLR,0.9375,341.3702380657196,31
+CustomCNN,label,omprehensive Environmental Augmentation & mixup,True,SGD,wihoutLR,0.9246794871794872,2078.575813293457,27
+CustomCNN,realness,No data augmentation,False,SGD,wihoutLR,0.7003205128205128,408.3866057395935,37
+CustomCNN,realness,Basic Natural Scene Augmentation,False,SGD,wihoutLR,0.7035256410256411,1633.543294429779,30
+CustomCNN,realness,Advanced Realism Augmentation,False,SGD,wihoutLR,0.6891025641025641,2104.749638557434,27
+CustomCNN,realness,Comprehensive Environmental Augmentation,False,SGD,wihoutLR,0.6698717948717948,2091.676894426346,27
+CustomCNN,realness,mixup,True,SGD,wihoutLR,0.6442307692307693,299.5854592323303,27
+CustomCNN,realness,omprehensive Environmental Augmentation & mixup,True,SGD,wihoutLR,0.6842948717948718,2079.1641771793365,27
+resnet,label,No data augmentation,False,SGD,wihoutLR,0.9615384615384616,695.8541369438171,27
+resnet,label,Basic Natural Scene Augmentation,False,SGD,wihoutLR,0.969551282051282,2210.591665506363,33
+resnet,label,Advanced Realism Augmentation,False,SGD,wihoutLR,0.9583333333333334,2839.8305990695953,32
+resnet,label,Comprehensive Environmental Augmentation,False,SGD,wihoutLR,0.9647435897435898,2377.8686468601227,27
+resnet,label,mixup,True,SGD,wihoutLR,0.9631410256410257,693.5590949058533,27
+resnet,label,omprehensive Environmental Augmentation & mixup,True,SGD,wihoutLR,0.9519230769230769,2388.9996299743652,27
+resnet,realness,No data augmentation,False,SGD,wihoutLR,0.5657051282051282,691.3709506988525,27
+resnet,realness,Basic Natural Scene Augmentation,False,SGD,wihoutLR,0.5272435897435898,1810.0944032669067,27
+resnet,realness,Advanced Realism Augmentation,False,SGD,wihoutLR,0.4935897435897436,2422.1102917194366,27
+resnet,realness,Comprehensive Environmental Augmentation,False,SGD,wihoutLR,0.5176282051282052,2398.2169120311737,27
+resnet,realness,mixup,True,SGD,wihoutLR,0.42788461538461536,693.9541625976562,27
+resnet,realness,omprehensive Environmental Augmentation & mixup,True,SGD,wihoutLR,0.5480769230769231,2269.5156350135803,27
+mobilenet,label,No data augmentation,False,SGD,wihoutLR,0.9487179487179487,313.25310254096985,27
+mobilenet,label,Basic Natural Scene Augmentation,False,SGD,wihoutLR,0.9615384615384616,1471.1735754013062,27
+mobilenet,label,Advanced Realism Augmentation,False,SGD,wihoutLR,0.9599358974358975,2126.893964290619,27
+mobilenet,label,Comprehensive Environmental Augmentation,False,SGD,wihoutLR,0.9599358974358975,2096.5655155181885,27
+mobilenet,label,mixup,True,SGD,wihoutLR,0.9615384615384616,299.20140767097473,27
+mobilenet,label,omprehensive Environmental Augmentation & mixup,True,SGD,wihoutLR,0.9615384615384616,2101.5582790374756,27
+mobilenet,realness,No data augmentation,False,SGD,wihoutLR,0.5657051282051282,300.3444628715515,27
+mobilenet,realness,Basic Natural Scene Augmentation,False,SGD,wihoutLR,0.5448717948717948,1473.7790145874023,27
+mobilenet,realness,Advanced Realism Augmentation,False,SGD,wihoutLR,0.5416666666666666,2126.0882136821747,27
+mobilenet,realness,Comprehensive Environmental Augmentation,False,SGD,wihoutLR,0.5208333333333334,2094.5823945999146,27
+mobilenet,realness,mixup,True,SGD,wihoutLR,0.5176282051282052,303.53780794143677,27
+mobilenet,realness,omprehensive Environmental Augmentation & mixup,True,SGD,wihoutLR,0.48878205128205127,2103.0447051525116,27
